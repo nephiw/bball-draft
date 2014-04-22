@@ -1,21 +1,9 @@
 <div ng-include="'partials/navbar'"></div>
 
-<div class="jumbotron">
-  <h1>'Allo, 'Allo!</h1>
-  <p class="lead">
-    <img src="images/yeoman.png" alt="I'm Yeoman"><br>
-    Always a pleasure scaffolding your apps.
-  </p>
-  <p><a class="btn btn-lg btn-success" ng-href="#">Splendid!</a></p>
-</div>
+<h1>Directions</h1>
 
-<div class="row marketing">
-  <div ng-repeat="thing in awesomeThings">
-      <h4>{{thing.name}}</h4>
-      <p>{{thing.info}}</p>
-  </div>
-</div>
+<p>The goal of this site is to try to get you to consider the things that you should consider when doing a draft pick. Remember that players are more than shots per game.</p>
 
-<div class="footer">
-  <p>♥ from the Yeoman team</p>
-</div>
+<p>Once you start, sequence the mysterious players based on how you would draft them.</p>
+
+<a href ng-click="startDraft()">Start Draft</a>
